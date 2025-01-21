@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { Separator } from '@ohif/ui-next';
-import { useImageViewer, useViewportGrid } from '@ohif/ui';
+import { useViewportGrid } from '@ohif/ui-next';
+import { useImageViewer } from '@ohif/ui';
+
 import { utils } from '@ohif/core';
 import { useNavigate } from 'react-router-dom';
 

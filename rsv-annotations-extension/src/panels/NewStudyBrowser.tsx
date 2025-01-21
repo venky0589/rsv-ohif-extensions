@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { useImageViewer, useViewportGrid } from '@ohif/ui';
+import { useViewportGrid } from '@ohif/ui-next';
+import { useImageViewer } from '@ohif/ui';
+
 import { useNavigate } from 'react-router-dom';
 
 import { DicomMetadataStore } from '@ohif/core';

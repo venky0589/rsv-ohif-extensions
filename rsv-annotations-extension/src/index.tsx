@@ -7,6 +7,7 @@ import getPanelModule from './getPanelModule';
 import getHangingProtocolModule from './getHangingProtocolModule';
 import getDataSourcesModule from './getDataSourcesModule';
 import getCommandsModule from './getCommandsModule';
+import getViewportModule from './getViewportModule';
 const annotationData = {
   "invalidated": false,
   "highlighted": true,
@@ -110,7 +111,8 @@ const rsvAnnotationsExtension = {
   getPanelModule,
   getHangingProtocolModule,
   getDataSourcesModule,
-  getCommandsModule
+  getCommandsModule,
+  getViewportModule
 
 };
 

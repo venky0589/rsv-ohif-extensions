@@ -1,6 +1,6 @@
 import React from 'react';
 import './SeriesPanel.css'; // Import CSS for styling
-import { useImageViewer, useViewportGrid } from '@ohif/ui';
+import { useImageViewer } from '@ohif/ui';
 
 const SeriesPanel = () => {
     const { StudyInstanceUIDs } = useImageViewer();

@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
-import { Header as ViewerHeader, SidePanel as Panel, ViewportGrid } from '@ohif/ui';
-import { LoadingIndicatorProgress, InvestigationalUseDialog, useViewportGrid } from '@ohif/ui';
-
+import { Header as ViewerHeader, SidePanel as Panel, ViewportGrid } from '@ohif/ui-next';
+import { useViewportGrid } from '@ohif/ui-next';
+import { LoadingIndicatorProgress } from '@ohif/ui';
 import './RecistLayout.css';
 import { useAppConfig } from '@state';
 import RecistViewerHeader from '../components/RecistViewerHeader';

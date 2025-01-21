@@ -87,7 +87,7 @@ function createRsvDicomJSONApi(dicomJsonConfig) {
 
             //TODO: Get the below visitInformation from taskjson file.
             const visitOrder = ["1_Screening", "2_Treatment_01", "2_Treatment_02", "2_Treatment_03", "2_Treatment_04", "2_Treatment_05", "2_Treatment_06", "2_Treatment_07", "2_Treatment_08"];
-            const taskTimepoints = ["1_Screening", "2_Treatment_01", "2_Treatment_02", "2_Treatment_03", "2_Treatment_04", "2_Treatment_05", "2_Treatment_06", "2_Treatment_07", "2_Treatment_08"];
+            const taskTimepoints = ["1_Screening", "2_Treatment_01", "2_Treatment_02", "2_Treatment_04", "2_Treatment_05", "2_Treatment_06"];
             const currentTimepoint = "2_Treatment_04";
 
             const visit_info = { visitOrder, taskTimepoints, currentTimepoint };

@@ -2,7 +2,10 @@ import { hotkeys, DicomMetadataStore } from '@ohif/core';
 import { initToolGroups, toolbarButtons, moreTools } from '@ohif/mode-longitudinal';
 import { id } from './id';
 import RecistLayout from './layout';
-import { useImageViewer, useViewportGrid } from '@ohif/ui';
+import { useViewportGrid } from '@ohif/ui-next';
+import { useImageViewer } from '@ohif/ui';
+
+
 
 
 
@@ -19,8 +22,8 @@ const rsv = {
   layout: 'rsv-annotations-extension.layoutTemplateModule.rsvRecistLayout',
   hp: 'rsv-annotations-extension.hangingProtocolModule.recist-workflow-protocol',
   seriesList: 'rsv-annotations-extension.panelModule.SeriesPanel',
-  newStudyBrowser: 'rsv-annotations-extension.panelModule.NewStudyBrowser'
-
+  newStudyBrowser: 'rsv-annotations-extension.panelModule.NewStudyBrowser',
+  viewport: 'rsv-annotations-extension.viewportModule.recist-reference-viewport'
 };
 const cornerstone = {
   measurements: '@ohif/extension-cornerstone.panelModule.panelMeasurement',
@@ -257,7 +260,7 @@ function modeFactory({ modeConfiguration }) {
               rightPanelClosed: true,
               viewports: [
                 {
-                  namespace: tracked.viewport,
+                  namespace: rsv.viewport,
                   displaySetsToDisplay: [
                     ohif.sopClassHandler,
                   ],

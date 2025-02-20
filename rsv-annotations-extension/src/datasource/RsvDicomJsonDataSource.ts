@@ -92,6 +92,7 @@ function createRsvDicomJSONApi(dicomJsonConfig) {
 
             const visit_info = { visitOrder, taskTimepoints, currentTimepoint };
 
+            const visit_to_studydate_map = {};
 
             data.studies.forEach(study => {
                 StudyInstanceUID = study.StudyInstanceUID;
@@ -104,6 +105,8 @@ function createRsvDicomJSONApi(dicomJsonConfig) {
                         const imageId = instance.url;///getImageId({ instance, config: dicomJsonConfig });
 
                         const { query } = qs.parseUrl(instance.url);
+
+                        visit_to_studydate_map[naturalizedDicom.ClinicalTrialTimePointDescription] = naturalizedDicom.StudyDate;
 
                         // Add imageId specific mapping to this data as the URL isn't necessarliy WADO-URI.
                         metadataProvider.addImageIdToUIDs(imageId, {
@@ -126,7 +129,9 @@ function createRsvDicomJSONApi(dicomJsonConfig) {
             );
 
             _store.annotationmap = [];
-            _store.visitInfo = visit_info;
+            _store.visitInfo = { ...visit_info, visit_to_studydate_map: visit_to_studydate_map };
+
+            return data.studies;
         },
         query: {
             studies: {

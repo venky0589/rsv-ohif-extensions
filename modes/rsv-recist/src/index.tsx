@@ -1,4 +1,4 @@
-import { hotkeys, DicomMetadataStore } from '@ohif/core';
+import { hotkeys, DicomMetadataStore, ViewportGridService } from '@ohif/core';
 import { initToolGroups, toolbarButtons, moreTools } from '@ohif/mode-longitudinal';
 import { id } from './id';
 import RecistLayout from './layout';
@@ -23,6 +23,7 @@ const rsv = {
   hp: 'rsv-annotations-extension.hangingProtocolModule.recist-workflow-protocol',
   seriesList: 'rsv-annotations-extension.panelModule.SeriesPanel',
   newStudyBrowser: 'rsv-annotations-extension.panelModule.NewStudyBrowser',
+  LesionTable: 'rsv-annotations-extension.panelModule.LesionTable',
   viewport: 'rsv-annotations-extension.viewportModule.recist-reference-viewport'
 };
 const cornerstone = {
@@ -108,7 +109,7 @@ function modeFactory({ modeConfiguration }) {
      * Services and other resources.
      */
     onModeEnter: ({ servicesManager, extensionManager, commandsManager }: withAppTypes) => {
-      const { measurementService, toolbarService, toolGroupService, hangingProtocolService, customizationService } = servicesManager.services;
+      const { measurementService, toolbarService, toolGroupService, hangingProtocolService, customizationService, viewportGridService } = servicesManager.services;
 
       measurementService.clearMeasurements();
 
@@ -256,8 +257,9 @@ function modeFactory({ modeConfiguration }) {
               //  leftPanels: [tracked.thumbnailList],
               leftPanels: [rsv.newStudyBrowser, rsv.seriesList],
               // rightPanels: [cornerstone.segmentation, tracked.measurements],
-              rightPanels: [cornerstone.segmentation, cornerstone.measurements],
-              rightPanelClosed: true,
+              rightPanels: [cornerstone.segmentation, cornerstone.measurements, rsv.LesionTable],
+              rightPanelClosed: false,
+              leftPanelClosed: true,
               viewports: [
                 {
                   namespace: rsv.viewport,

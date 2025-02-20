@@ -1,0 +1,508 @@
+{
+    "Follow-up 3": {
+        "scan-date": "22-Nov-24",
+        "targets": {
+            "title": "Targets",
+            "max-items": 5,
+            "count": 3,
+            "lesions": [
+                {
+                    "roi": "101",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.82,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "102",
+                    "body-part": "Muscle",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "103",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ],
+            "result": {
+                "Sum All": "0.0",
+                "%(Baseline)": "0.0",
+                "%{Smallest": "-"
+            },
+            "response": {
+                "Response": "NA"
+            }
+        },
+        "non-targets": {
+            "title": "Non-Targets",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "201",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "202",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        },
+        "new lesion": {
+            "title": "New Lesion",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "301",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "302",
+                    "body-part": "Muscle",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        }
+    },
+    "Follow-up 4": {
+        "scan-date": "22-Nov-24",
+        "targets": {
+            "title": "Targets",
+            "max-items": 5,
+            "count": 3,
+            "lesions": [
+                {
+                    "roi": "101",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "102",
+                    "body-part": "Muscle",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "103",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ],
+            "result": {
+                "Sum All": "0.0",
+                "%(Baseline)": "0.0",
+                "%{Smallest": "-"
+            },
+            "response": {
+                "Response": "NA"
+            }
+        },
+        "non-targets": {
+            "title": "Non-Targets",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "201",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "202",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        },
+        "new lesion": {
+            "title": "New Lesion",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "301",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "302",
+                    "body-part": "Muscle",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        }
+    },
+    "Follow-up 5": {
+        "scan-date": "22-Nov-24",
+        "targets": {
+            "title": "Targets",
+            "max-items": 5,
+            "count": 3,
+            "lesions": [
+                {
+                    "roi": "101",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "102",
+                    "body-part": "Muscle",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "103",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ],
+            "result": {
+                "Sum All": "0.0",
+                "%(Baseline)": "0.0",
+                "%{Smallest": "-"
+            },
+            "response": {
+                "Response": "NA"
+            }
+        },
+        "non-targets": {
+            "title": "Non-Targets",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "201",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "202",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        },
+        "new lesion": {
+            "title": "New Lesion",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "301",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "302",
+                    "body-part": "Muscle",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        }
+    },
+    "Follow-up 6": {
+        "scan-date": "22-Nov-24",
+        "targets": {
+            "title": "Targets",
+            "max-items": 5,
+            "count": 3,
+            "lesions": [
+                {
+                    "roi": "101",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "102",
+                    "body-part": "Muscle",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "103",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ],
+            "result": {
+                "Sum All": "0.0",
+                "%(Baseline)": "0.0",
+                "%{Smallest": "-"
+            },
+            "response": {
+                "Response": "NA"
+            }
+        },
+        "non-targets": {
+            "title": "Non-Targets",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "201",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "202",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        },
+        "new lesion": {
+            "title": "New Lesion",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "301",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "302",
+                    "body-part": "Muscle",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        }
+    },
+    "Follow-up 7": {
+        "scan-date": "22-Nov-24",
+        "targets": {
+            "title": "Targets",
+            "max-items": 5,
+            "count": 3,
+            "lesions": [
+                {
+                    "roi": "101",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "102",
+                    "body-part": "Muscle",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "103",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ],
+            "result": {
+                "Sum All": "0.0",
+                "%(Baseline)": "0.0",
+                "%{Smallest": "-"
+            },
+            "response": {
+                "Response": "NA"
+            }
+        },
+        "non-targets": {
+            "title": "Non-Targets",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "201",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "202",
+                    "body-part": "Bone",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        },
+        "new lesion": {
+            "title": "New Lesion",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "301",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 52.8,
+                    "sd": 26.4
+                },
+                {
+                    "roi": "302",
+                    "body-part": "Muscle",
+                    "ld": 52.8,
+                    "sd": 26.4
+                }
+            ]
+        }
+    },
+    "Follow-up 8": {
+        "scan-date": "22-Sep-24",
+        "targets": {
+            "title": "Targets",
+            "max-items": 5,
+            "count": 3,
+            "lesions": [
+                {
+                    "roi": "101",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "102",
+                    "body-part": "Muscle",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "103",
+                    "body-part": "Bone",
+                    "ld": 81.8,
+                    "sd": 40.0
+                }
+            ],
+            "result": {
+                "Sum All": "0.0",
+                "%(Baseline)": "0.0",
+                "%{Smallest": "-",
+                "Response": "NA"
+            },
+            "response": {
+                "Response": "NA"
+            }
+        },
+        "non-targets": {
+            "title": "Non-Targets",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "201",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "202",
+                    "body-part": "Bone",
+                    "ld": 81.8,
+                    "sd": 40.0
+                }
+            ]
+        },
+        "new lesion": {
+            "title": "New Lesion",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "301",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 81.8,
+                    "sd": 40.0
+                },
+                {
+                    "roi": "302",
+                    "body-part": "Muscle",
+                    "ld": 81.8,
+                    "sd": 40.0
+                }
+            ]
+        }
+    },
+    "Baseline": {
+        "scan-date": "21-Nov-23",
+        "targets": {
+            "title": "Targets",
+            "max-items": 5,
+            "count": 3,
+            "lesions": [
+                {
+                    "roi": "101",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 41.7,
+                    "sd": 20.8
+                },
+                {
+                    "roi": "102",
+                    "body-part": "Muscle",
+                    "ld": 41.7,
+                    "sd": 20.8
+                },
+                {
+                    "roi": "103",
+                    "body-part": "Bone",
+                    "ld": 41.7,
+                    "sd": 20.8
+                }
+            ],
+            "result": {
+                "Sum All": "0.0",
+                "%(Baseline)": "0.0",
+                "%{Smallest": "-",
+                "Response": "NA"
+            },
+            "response": {
+                "Response": "NA"
+            }
+        },
+        "non-targets": {
+            "title": "Non-Targets",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "201",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 41.7,
+                    "sd": 20.8
+                },
+                {
+                    "roi": "202",
+                    "body-part": "Bone",
+                    "ld": 41.7,
+                    "sd": 20.8
+                }
+            ]
+        },
+        "new lesion": {
+            "title": "New Lesion",
+            "count": 2,
+            "lesions": [
+                {
+                    "roi": "301",
+                    "body-part": "Abdomen/Chest Wall",
+                    "ld": 41.7,
+                    "sd": 20.8
+                },
+                {
+                    "roi": "302",
+                    "body-part": "Muscle",
+                    "ld": 41.7,
+                    "sd": 20.8
+                }
+            ]
+        }
+    }
+}

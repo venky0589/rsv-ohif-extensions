@@ -6,6 +6,8 @@ import WrappedStudiesPanel from "./panels/RPanelStudyBrowser";
 import WrappedStudyPanelBrowser from './panels/WrappedStudyPanelBrowser';
 import NewStudyBrowser from './panels/NewStudyBrowser';
 import { Icons } from '@ohif/ui-next';
+import LesionTable from './components/LesionTable';
+import LesionTracker from './components/LesionTracker';
 
 const getPanelModule = ({ commandsManager, extensionManager, servicesManager }) => {
 
@@ -15,6 +17,9 @@ const getPanelModule = ({ commandsManager, extensionManager, servicesManager }) 
     });
     Icons.addIcon('all-timepoints', (props) => {
         return (<div className="w-[140px] text-xs">ALL Time Points</div>);
+    });
+    Icons.addIcon('lesion-table', (props) => {
+        return (<div className="w-[140px] text-xs">LESION TABLE</div>);
     });
     return [
         {
@@ -43,9 +48,14 @@ const getPanelModule = ({ commandsManager, extensionManager, servicesManager }) 
             ),
         },
         {
-            name: 'ResultViewerPanel',
-            component: ResultViewerPanel,
-            location: 'bottom',
+            name: 'LesionTable',
+            component: props => (
+                <LesionTracker commandsManager={commandsManager} extensionManager={extensionManager} servicesManager={servicesManager} />
+            ),
+            iconName: 'lesion-table',
+            iconLabel: 'Lesion Table',
+            label: 'All Time Points',
+            location: 'right',
         },
     ];
 };
